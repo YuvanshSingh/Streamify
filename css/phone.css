@@ -1,0 +1,168 @@
+/* navigation */
+body{
+    background-color: #a2d5ee54;
+}
+
+#navbar {
+    position: relative;
+    justify-content: center;
+    flex-direction: column;}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 15px;
+}
+
+
+
+/* home */
+#home::before {
+    height: 480px;
+    
+}
+
+
+
+
+#home{
+    height: 140px;
+    flex-direction: column;
+    padding: 130px 90px;
+}
+#home p{
+    font-size: 13px;
+}
+
+
+.btn{
+    font-size: 0.7rem;
+    padding: 7px 7px;
+}
+     
+
+
+
+
+/* services */
+
+
+#services{
+    flex-direction: column;
+}
+/* #services .box1{
+    padding: 20px 20px;
+    margin: 20px 20px ;
+} */
+
+#services .box1,
+    .box2,
+    .box3 {
+        border: 2px solid black;
+        border-radius: 23px;
+        margin: 20px 20px;
+        background-color: aliceblue;
+        padding: 20px;
+
+    }
+
+
+
+.clients-item1 img {
+    height: 40px;
+    width: 150px;
+    padding: 0px 56px 0px 50px;}
+.clients-item3 img {
+    height: 40px;
+    width: 150px;
+    padding: 0px 56px 0px 50px;}
+
+
+/* source */
+
+.clients-item2{
+    display: none;
+}
+
+
+
+#clients-section::before {
+    content: "";
+    
+    height: 39%;
+   
+}
+
+
+
+
+
+
+#clients{
+ flex-wrap: wrap;
+ 
+}
+#clients img{
+    height: auto;
+    width: 80px;
+ 
+}
+/* #clients-item1{
+    height: 85px;
+    width: 60px;
+ 
+} */
+
+
+
+
+/* contact-us */
+#contact-us::before {
+    content: "";
+    width: 100%;
+    height: 56%;
+    
+}
+
+
+
+
+
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.1rem;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size: .64rem;
+}
+
+
+/* footer */
+
+
+
+
+/* utility */
+
+
+
+    .h-primary {
+        font-size: 1.5rem;
+        padding: 15px;
+        height: 65px;
+    }
+
+
+   
+
+
+
+    #services {
+        
+        padding: 0px 8rem 0px 8rem;}
+
+
+
+        #services .box1, .box2, .box3 {
+           
+            padding: 40px;}
